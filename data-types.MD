@@ -1,29 +1,56 @@
 # Python Data Types Cheat Sheet
 
 ## Numeric Types
-- **int**: Integer (e.g., `x = 10`)
-- **float**: Floating-point number (e.g., `y = 10.5`)
-- **complex**: Complex number (e.g., `z = 3 + 4j`)
+```python
+# Integer
+x = 10
+# Floating-point
+y = 10.5
+# Complex number
+z = 3 + 4j
+```
 
 ## Sequence Types
-- **list**: Ordered, mutable collection (e.g., `lst = [1, 2, 3]`)
-- **tuple**: Ordered, immutable collection (e.g., `tpl = (1, 2, 3)`) 
-- **range**: Sequence of numbers (e.g., `rng = range(5)`) 
+```python
+# List (Ordered, Mutable)
+lst = [1, 2, 3]
+# Tuple (Ordered, Immutable)
+tpl = (1, 2, 3)
+# Range (Sequence of Numbers)
+rng = range(5)
+```
 
 ## Text Type
-- **str**: String (e.g., `s = "Hello"`)
+```python
+# String
+s = "Hello"
+```
 
 ## Set Types
-- **set**: Unordered collection of unique elements (e.g., `st = {1, 2, 3}`)
-- **frozenset**: Immutable set (e.g., `fst = frozenset({1, 2, 3})`)
+```python
+# Set (Unordered, Unique Elements)
+st = {1, 2, 3}
+# Frozen Set (Immutable Set)
+fst = frozenset({1, 2, 3})
+```
 
 ## Mapping Type
-- **dict**: Key-value pairs (e.g., `dct = {"key": "value"}`)
+```python
+# Dictionary (Key-Value Pairs)
+dct = {"key": "value"}
+```
 
 ## Boolean Type
-- **bool**: True/False values (e.g., `b = True`)
+```python
+# Boolean
+b = True
+```
 
 ## Binary Types
-- **bytes**: Immutable byte sequence (e.g., `bts = b"hello"`)
-- **bytearray**: Mutable byte sequence (e.g., `ba = bytearray(5)`) 
-- **memoryview**: Memory view object (e.g., `mv = memoryview(b"hello")`) 
+```python
+# Bytes (Immutable Byte Sequence)
+bts = b"hello"
+# Bytearray (Mutable Byte Sequence)
+ba = bytearray(5)
+# Memory View (Memory View Object)
+mv = memoryview(b"hello")
